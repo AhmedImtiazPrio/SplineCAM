@@ -16,8 +16,10 @@ https://user-images.githubusercontent.com/32792313/221407228-86f1a36b-1d88-43f6-
 **Video**: SplineCam visualizations during training of a binary classifier MLP with width 10 and depth 5. Regions are colored by the norm of their corresponding slope parameters. Notice how the function keeps changing even when the decision boundary has converged, especially away from the training data. 
 
 ## Examples
+#### Currently graph tool dependency is failing for Google Colab, best workaround is setup a conda environement using the environment.yml
 
 Examples are placed under the `./example` folder. Google colabs are also provided for some.
+
 
 | Model | Data | Filename | Link
 | :---- | :---- | :---- | :----
